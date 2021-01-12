@@ -1,0 +1,11 @@
+The program is to simulate the operation of processor access planning algorithms for the reporting processes.
+Examine the average process latency for various planning algorithms:
+- FCFS
+- SJF (with and without expropriation)
+- rotational (with a choice of time slots)
+You should independently formulate the simulation assumptions.
+Tips:
+- algorithms are best checked for the same test data (i.e. the same test strings of the reporting processes)
+- there should be more test strings (20? 50?); the result will be average values.
+- in each sequence there will be N processes with random processor phase lengths (the phase length distribution should be selected so that it corresponds to the situation in the real system in which it is not uniform), reporting at random times (parameters should be selected so that a queue of processes waiting for processor allocation).
+- possible representation of the process: record (number, processor phase length, time of reporting, waiting time / initially equal to 0 / ...)
